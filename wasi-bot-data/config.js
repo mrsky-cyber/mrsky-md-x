@@ -28,7 +28,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+global.mods = ['255753033342'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -42,13 +42,13 @@ global.lolkeysapi = ['GataDios']
 
 
 
-//💌------------------------------------------💌
+//👑------------------------------------------👑
 //CONFIG VARS. Do not touch them⚠️
 
   global.vidcap = process.env.DL_MSG
 
 
-//💌------------------------------------------💌
+//🌐------------------------------------------🌐
 
 
 
@@ -69,7 +69,7 @@ global.APIs = {
   bg: 'http://bochil.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
 }
-// 💌------------------------------------------💌
+// 🌐------------------------------------------🌐
 
 
 
@@ -86,7 +86,7 @@ global.APIKeys = {
    
 }
 
-//💌------------------------------------------💌
+//🌐------------------------------------------🌐
 
 
 
@@ -102,7 +102,7 @@ global.imagen8 = fs.readFileSync("./Assets/menus/img8.jpg")
 global.imagen9 = fs.readFileSync("./Assets/menus/img9.jpg")
 global.imagen10 = fs.readFileSync("./Assets/menus/img11.jpg")
 global.imagen11 = fs.readFileSync("./Assets/menus/img12.jpg")
-//💌------------------------------------------💌
+//⭕------------------------------------------⭕
 
 
 
@@ -114,19 +114,19 @@ global.imagen11 = fs.readFileSync("./Assets/menus/img12.jpg")
 
 // Randome
 global.princeImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11]
-//💌------------------------------------------💌
+//⭕------------------------------------------⭕
 
 
 
 // Moderator 
-global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
-//💌------------------------------------------💌
+global.developer = 'https://wa.me/+255753033342' //contact
+//⭕------------------------------------------⭕
 
 
 
 //Sticker WM
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗🛡️'
+global.princebot = '🛡️M🛡️'
 global.packname = '' 
 global.author = '' 
 global.princeig = '' 
@@ -136,7 +136,7 @@ global.Princesc = ''
 global.princeyt = ''
 global.Princelog = ''
 global.thumb = fs.readFileSync('./Assets/logo.png')
-//💌------------------------------------------💌
+//⭕------------------------------------------⭕
 
 
 
@@ -150,7 +150,7 @@ global.error = '❌'
 global.xmoji = '🌀' 
 global.multiplier = 69 
 global.maxwarn = '2' 
-//💌------------------------------------------💌
+//⭕------------------------------------------⭕
 
 
 
