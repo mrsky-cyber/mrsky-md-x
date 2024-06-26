@@ -259,7 +259,7 @@ export async function handler(chatUpdate) {
                     for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
-                            m.reply(`*🗂️ Plugin:* ${name}\n*👤 Sender:* ${m.sender}\n*💬 Chat:* ${m.chat}\n*💻 Command:* ${m.text}\n\n\${format(e)}`.trim(), data.jid)
+                            m.reply('⭕*🗂️ Plugin:* ${name} ⭕\n*👤 Sender:* ${m.sender}\n*💬 Chat:* ${m.chat}\n*💻 Command:* ${m.text}\n\n\${format(e)}`.trim(), data.jid)
                     }
                 }
             }
@@ -387,11 +387,11 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                     if (!isPrems && plugin.credit && global.db.data.users[m.sender].credit < plugin.credit * 1) {
-                        this.reply(m.chat, `🟥 You don't have enough gold`, m)
+                        this.reply(m.chat, `⌛ You don't have enough gold`, m)
                         continue // Gold finished
                     }
                     if (plugin.level > _user.level) {
-                        this.reply(m.chat, `🟥 Level required ${plugin.level} to use this command. \nYour level ${_user.level}`, m)
+                        this.reply(m.chat, `⭕ Level required ${plugin.level} to use this command. \nYour level ${_user.level}`, m)
                         continue // If the level has not been reached
                     }
                 let extra = {
@@ -524,13 +524,13 @@ export async function participantsUpdate({
     if (global.db.data == null) await loadDatabase();
     const chat = global.db.data.chats[id] || {};
     const emoji = {
-        promote: '👤🛡️',
+        promote: '👤👑',
         demote: '👤🙅‍♂️',
-        welcome: '👋',
+        welcome: '✌',
         bye: '👋',
         bug: '🐛',
         mail: '📮',
-        owner: '🛡️'
+        owner: '👑'
     };
 
     
