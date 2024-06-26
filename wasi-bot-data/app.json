@@ -3,7 +3,7 @@
   "description": "Mrsky MD A WhatsApp User BOT",
   "logo": "https://telegra.ph/file/e401d0a038f615c73871b.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/mrsky-cyber/Mrsky-md",
+  "repository": "https://github.com/mrsky-cyber/Mrsky-md-x",
   
   "stack": "container",
   "env": {
@@ -36,7 +36,7 @@
     "PREFIX": {
       "description": "Put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "."
      },
     "antidelete": {
       "description": "BOT will forward deleted messages if you make it true",
