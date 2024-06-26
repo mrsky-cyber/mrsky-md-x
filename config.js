@@ -5,7 +5,7 @@ import fs from 'fs'
 
 //Owner Numbers 
 global.owner = [
-  ['923135673658', 'wasi', false],
+  ['255753033342', 'mrsky', false],
   [''], 
   [''],
 ]
@@ -37,17 +37,17 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = '𝗪𝗔𝗦𝗜-𝗠𝗗'
-global.princebot = '🛡️𝗪𝗔𝗦𝗜 𝗧𝗘𝗖𝗛🛡️'
-global.packname = '𝗪𝗔𝗦𝗜♥️' 
-global.author = '𝗧𝗘𝗖𝗛♥️' 
+global.botname = 'mrsky-md-x'
+global.princebot = '🛡️mrsky cyber🛡️'
+global.packname = 'mrsky🐦' 
+global.author = 'mrsky🐦' 
 global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j'
+global.princegp = 'https://chat.whatsapp.com/HJgOTkcWL0BBqpsMm5cT6T'
 global.menuvid = 'https://i.imgur.com/0UK6D3b.mp4'
 global.Princesc = '' 
-global.princeyt = 'https://youtube.com/@wasitech1'
-global.Princelog = 'https://i.imgur.com/ujxeU8g.jpeg'
-global.thumb = fs.readFileSync('./Assets/wasi.png')
+global.princeyt = 'https://youtube.com/'
+global.Princelog = 'https'
+global.thumb = fs.readFileSync('./Assets/mrsky.png')
 
 global.wait = '*♻️ _ʟᴏᴅɪɴɢ ᴘʟᴢ ᴡᴀɪᴛ ᴅᴇᴀʀ _*\n*▰▰▰▱▱▱▱▱*'
 global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
