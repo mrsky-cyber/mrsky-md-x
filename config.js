@@ -46,7 +46,7 @@ global.princegp = 'https://chat.whatsapp.com/HJgOTkcWL0BBqpsMm5cT6T'
 global.menuvid = 'https://i.imgur.com/xgocLHm.mp4'
 global.Princesc = '' 
 global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https'
+global.Princelog = 'https://telegra.ph/file/e401d0a038f615c73871b.jpg'
 global.thumb = fs.readFileSync('./Assets/mrsky.png')
 
 global.wait = '*♻️ _ʟᴏᴅɪɴɢ ᴘʟᴢ ᴡᴀɪᴛ ᴅᴇᴀʀ _*\n*▰▰▰▱▱▱▱▱*'
