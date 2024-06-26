@@ -40,7 +40,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     { quoted: m }
   );
 
-  m.react('🪩'); 
+  m.react('🐦'); 
 }
 
 handler.tags = ['reaction'];
