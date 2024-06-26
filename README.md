@@ -1,11 +1,11 @@
 <p align="center">  
   <a href="https://mrsky-cyber.blogspot.com">
-    <img alt="mrsky" height="300" src="https">
+    <img alt="mrsky" height="300" src="https://telegra.ph/file/e401d0a038f615c73871b.jpg">
     <h1 align="center">MRSKY-MD 2.O</h1>
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/mrsky-cyber"><img title="Author" src="https://img.shields.io/mrsky-cyber/mrsky-;d-x-black?style=for-the-badge&logo=telegram"></a>
+<a href="https://github.com/mrsky-cyber"><img title="Author" src="https://img.shields.io/mrsky-cyber/mrsky-md-x-black?style=for-the-badge&logo=telegram"></a>
 <p/>
 <p align="center">
 <a href="https://github.com/mrsky-cyber?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/mrsky-cyber?label=Followers&style=social"></a>
