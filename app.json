@@ -1,10 +1,10 @@
 {
-  "name": "UNIQUE-MD",
-  "description": " Whatsapp bot build by wàsi tech.",
+  "name": "MRSKY-MD-X",
+  "description": " Whatsapp bot build by mrsky tech.",
   "keywords": [
-    "whatsapp bot","unique MD","unique-md-github","wasi-tech","wasi","unique bot"
+    "whatsapp bot","mrsky md","mrsky-md-github","mrsky-tech","mrsky","mrsky bot"
   ],
-  "repository": "https://github.com/itxxwasi/UNIQUE-MD",
+  "repository": "https://github.com/mrsky-cyber/mrsky-md-x",
   "stack": "container",
   "env": {
        "DATABASE_URL": {
@@ -33,7 +33,7 @@
       "value": ""
     },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "your mrsky session id",
       "required": true,
       "value": ""
     }
