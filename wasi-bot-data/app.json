@@ -1,16 +1,16 @@
 {
-  "name": "PRINCE-BOT",
-  "description": "Prince MD A WhatsApp User BOT",
-  "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
+  "name": "MRSKY-MD",
+  "description": "Mrsky MD A WhatsApp User BOT",
+  "logo": "https://telegra.ph/file/e401d0a038f615c73871b.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
+  "repository": "https://github.com/mrsky-cyber/Mrsky-md",
   
   "stack": "container",
   "env": {
       "OWNERS": {
       "description": "Put your Number as Owner",
       "required": true,
-      "value": "923092668108;Prince;923092668108;GDS"
+      "value": "255753033342;Mrsky;255753033342;GDS"
 
      },
       "DATABASE_URL": {
@@ -46,12 +46,12 @@
     "BOT_NAME": {
       "description": "Put your BOT a name",
       "required": true,
-      "value": "ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ᴍᴅ-ʙᴏᴛ"
+      "value": "MRSKY-MD"
       },
     "DL_MSG": {
       "description": "Video downloader caption",
       "required": true,
-      "value": "💌--------------------ᴘʀɪɴᴄᴇ-ᴍᴅ----------------------💌"
+      "value": "💌--------------------MRSKY-ᴍᴅ----------------------💌"
        },
     "STATUSVIEW": {
       "description": "Make it true if you want bot to view status",
