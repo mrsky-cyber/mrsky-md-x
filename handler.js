@@ -579,7 +579,7 @@ export async function participantsUpdate({
                         title: global.botname,
                         body: "Welcome",
                         thumbnailUrl: welcomeApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/IhDUWhpX6OWI5q0cMh7tEj',
+                        sourceUrl: 'https://chat.whatsapp.com/HJgOTkcWL0BBqpsMm5cT6T',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
@@ -604,7 +604,7 @@ export async function participantsUpdate({
                   pp = 'https://i.imgur.com/ujxeU8g.jpeg'; // Assign default image URL
                   ppgp = 'https://i.imgur.com/ujxeU8g.jpeg'; // Assign default image URL
                 } finally {
-                  let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
+                  let text = (chat.sBye || this.bye || conn.bye || 'HELLO🙋, @user')
                     .replace('@user', '@' + user.split('@')[0]);
           
                   let nthMember = groupMetadata.participants.length;
@@ -741,9 +741,9 @@ export async function deleteUpdate(message) {
        
             await this.reply(msg.chat, `
             ✅ Deleted a message 
-            ┌─⊷🪩𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀🪩
-            │✫ -  *Number :* @${participant.split`@`[0]} 
-            └─────────────
+            ┌✒✒✒⭕Deleted A Message⭕
+            │👑 -  *Number :* @${participant.split`@`[0]} 
+            └─➖➖➖➖➖➖➖➖➖➖➖
              To deactivate delete the Antidelete var✅
             `.trim(), msg, {
                         mentions: [participant]
@@ -812,7 +812,7 @@ export async function presenceUpdate(presenceUpdate) {
 dfail
  */
 global.dfail = (type, m, conn) => {
-    const userTag = `👋 Hai *@${m.sender.split("@")[0]}*, `
+    const userTag = `👋 Hi *@${m.sender.split("@")[0]}*, `
     const emoji = {
         general: '⚙️',
         owner: '👑',
